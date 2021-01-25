@@ -1,0 +1,92 @@
+/****** Base Styles *****/
+* {box-sizing:border-box;margin:0;}
+body {margin:0;background-color:#c6ebc9;font-family: 'Nunito', sans-serif;}
+
+/****** Large devices ******/
+@media (min-width: 1200px) {
+header#header {
+  font-size: 1.5em;
+  text-align:center;
+  background-color: #70af85;
+  padding: 30px;
+  position:relative;
+  color: #f0e2d0;
+  font-family: 'Potta One', cursive;
+}
+header#header img {
+  position:absolute;
+  top:25px;
+  left:15px;
+  background-color: #f9f9f9;
+}
+
+
+nav {
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: #f0e2d0;
+  top:0;
+  font-family: 'Potta One', cursive;
+}
+
+nav .navbar {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  font-size: 1.125em;
+}
+
+.navbar li a {
+  text-decoration:none;
+  padding: 14px 16px;
+  color: #70af85;
+  display:block;
+  float:left;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: white;
+  background-color: #aa8976;
+  text-shadow: 3px 0 5px #f9f9f9;
+}
+
+section.main {
+  margin-top: 40px;
+  line-height:20px;
+  font-size: 1.2em;
+  margin:auto;
+  text-align:left;
+}
+section.main h2 {
+  margin:10px;
+  text-align: center;
+  color: #aa8976;
+  font-family: 'Potta One', cursive;
+}
+
+footer {
+    text-align:center;
+    background-color:#70af85;
+    padding:40px;
+    font-size: 1.5em;
+    font-family: 'Potta One', cursive;
+    color: #aa8976;
+    text-shadow: 3px 3px 5px #f9f9f9;
+}
+
+}
+
+
+
+/****** Medium devices ******/
+@media (max-width: 1200px) and (min-width: 900px) {
+
+}
+
+
+/****** Small devices ******/
+@media (max-width: 900px) {
+
+}
